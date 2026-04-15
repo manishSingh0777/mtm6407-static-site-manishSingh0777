@@ -23,41 +23,49 @@ layout: page
   color: #555;
 }
 
+/* BUTTONS */
+.btn-group {
+  margin-top: 25px;
+}
+
 .btn-primary-custom {
   background-color: #0d6efd;
-  color: white !important;
-  border: none;
+  color: #fff !important;
   border-radius: 30px;
-  padding: 10px 24px;
-  text-decoration: none;
-  transition: 0.3s;
+  padding: 12px 28px;
+  font-weight: 600;
+  text-decoration: none !important;
   display: inline-block;
+  margin-right: 12px;
 }
 
 .btn-primary-custom:hover {
   background-color: #f97316;
-  color: white !important;
+  color: #fff !important;
 }
 
 .btn-outline-custom {
   border: 2px solid #f97316;
   color: #f97316 !important;
   border-radius: 30px;
-  padding: 10px 24px;
-  text-decoration: none;
-  transition: 0.3s;
+  padding: 12px 28px;
+  font-weight: 600;
+  text-decoration: none !important;
   display: inline-block;
 }
 
 .btn-outline-custom:hover {
   background-color: #f97316;
-  color: white !important;
+  color: #fff !important;
 }
 
+/* CARDS */
 .card-hover {
   transition: all 0.3s ease;
   border-radius: 12px;
   border: none;
+  padding: 30px;
+  background: white;
 }
 
 .card-hover:hover {
@@ -67,8 +75,10 @@ layout: page
 
 .card-hover h5 {
   color: #0d6efd;
+  margin-bottom: 10px;
 }
 
+/* SECTION */
 .section-bg {
   background-color: #f8f9fa;
   padding: 80px 0;
@@ -82,8 +92,11 @@ layout: page
 <p class="fw-semibold">Web Developer & Designer</p>
 <p>I build modern, responsive websites with clean design and efficient code.</p>
 
-<a href="/projects" class="btn btn-primary-custom me-3">View Projects</a>
-<a href="/contact" class="btn btn-outline-custom">Contact Me</a>
+<div class="btn-group">
+<a href="/projects" class="btn-primary-custom">View Projects</a>
+<a href="/contact" class="btn-outline-custom">Contact Me</a>
+</div>
+
 </div>
 
 </div>
@@ -95,21 +108,21 @@ layout: page
 <div class="row text-center">
 
 <div class="col-md-4 mb-4">
-<div class="card card-hover p-4 h-100">
+<div class="card card-hover h-100">
 <h5 class="fw-bold">Frontend Development</h5>
 <p>Building responsive and interactive websites using modern technologies.</p>
 </div>
 </div>
 
 <div class="col-md-4 mb-4">
-<div class="card card-hover p-4 h-100">
+<div class="card card-hover h-100">
 <h5 class="fw-bold">UI/UX Design</h5>
 <p>Designing clean and user-friendly interfaces for better experience.</p>
 </div>
 </div>
 
 <div class="col-md-4 mb-4">
-<div class="card card-hover p-4 h-100">
+<div class="card card-hover h-100">
 <h5 class="fw-bold">Project Experience</h5>
 <p>Worked on multiple academic and personal projects.</p>
 </div>
